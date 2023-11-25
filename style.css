@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  background-color: #444;
+}
+
+/*scollable containter */
+
+p {
+  width: 450px;
+  height: 300px;
+  overflow: auto;
+}
+
+/*hover and transition*/
+
+button:hover{
+  background-color: deeppink;
+}
+button {
+  transition: 350ms;
+}
+footer {
+  height: 150px;
+  background-color: #444;
+}
