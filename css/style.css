@@ -2,11 +2,14 @@ header {
   height: 80px;
   background-color: #444;
 }
-#NavList{
+
+#NavList {
   display: flex;
+  align-items: flex-end;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 /*scollable containter */
 p {
   width: 450px;
