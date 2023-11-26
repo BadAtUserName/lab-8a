@@ -1,17 +1,55 @@
 header {
-  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: #444;
 }
 
-#NavList {
+nav {
   display: flex;
-  align-items: flex-end;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding: 15px;
+  margin: auto;
+}
+ul {
+  display: Flex;
+  flex-direction: row;
+}
+li {
+  padding: 30px;
+}
+a {
+  color: whitesmoke;
 }
 
+main {
+  padding-top: 30px;
+  margin:auto;
+ width: 960px
+ 
+}
+/*How to spec gutters https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Mastering_wrapping_of_flex_items*/
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  padding-top: 30px;
+}
+div {
+  flex: display;
+  justify-content: center;
+  flex-wrap: nowrap;
+  row-gap: 30px;
+  column-gap: 30px;
+  padding-top: 30px;
+
+}
 /*scollable containter */
 p {
+
   width: 450px;
   height: 300px;
   overflow: auto;
